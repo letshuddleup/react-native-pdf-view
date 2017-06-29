@@ -9,6 +9,8 @@ interface Props {
   pageNumber?: number,
   zoom?: number,
   onLoadComplete?: () => void,
+  borderWidth?: number,
+  backgroundColor?: string,
 }
 
 declare class PDFView extends React.Component<Props, any> {}
